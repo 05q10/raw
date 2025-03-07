@@ -5,7 +5,7 @@ import Bye from './components/Bye';
 import Anushka from './components/Anushka';
 import Ria from './components/Ria';
 import Jiya from './components/Jiya';
-
+import Femme from './components/Femme';
 
 function App() {
 
@@ -32,6 +32,7 @@ const RoutesWeb = () => {
         <Route path="/ank" element={<Anushka />} />
         <Route path="/ria" element={<Ria />} />
         <Route path="/jiya" element={<Jiya />} />
+        <Route path="/femme" element={<Femme />} />
       </Routes>
       {/* {!isAdminRoute && <Footer />}       Conditionally render Footer */}
       </>
