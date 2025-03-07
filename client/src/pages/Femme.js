@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Briefcase, CheckCircle, Clock, XCircle, Menu } from "lucide-react";
-//import { Card, CardContent } from "@/components/ui/card";
+import { Card, CardContent } from "../components/Card";
 //import { Button } from "@/components/ui/button";
 
 const Femme = () => {
@@ -8,7 +8,7 @@ const Femme = () => {
 
   const jobs = [
     { id: 1, title: "Frontend Developer", company: "Google", status: "Pending" },
-    { id: 2, title: "UI/UX Designer", company: "Meta", status: "Interview" },
+    { id: 2, title: "UI/UX Designer", company: "Meta", status: "Interview" }, 
     { id: 3, title: "Backend Engineer", company: "Amazon", status: "Rejected" },
     { id: 4, title: "Product Manager", company: "Tesla", status: "Accepted" },
   ];
@@ -33,9 +33,9 @@ const Femme = () => {
         <h2 className="text-xl font-bold mb-4">Job Dashboard</h2>
         <nav>
           <ul className="space-y-3">
-            <li><Button variant="ghost" className="w-full text-left">Dashboard</Button></li>
-            <li><Button variant="ghost" className="w-full text-left">Applications</Button></li>
-            <li><Button variant="ghost" className="w-full text-left">Settings</Button></li>
+            <li><button variant="ghost" className="w-full text-left">Dashboard</button></li>
+            <li><button variant="ghost" className="w-full text-left">Applications</button></li>
+            <li><button variant="ghost" className="w-full text-left">Settings</button></li>
           </ul>
         </nav>
       </div>
@@ -43,9 +43,9 @@ const Femme = () => {
       {/* Main Content */}
       <div className="flex-1 p-6">
         {/* Mobile Menu Toggle */}
-        <Button className="md:hidden mb-4" onClick={() => setMenuOpen(!menuOpen)}>
+        <button className="md:hidden mb-4" onClick={() => setMenuOpen(!menuOpen)}>
           <Menu />
-        </Button>
+        </button>
 
         <h1 className="text-2xl font-bold mb-6">Job Applications</h1>
 

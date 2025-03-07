@@ -1,11 +1,11 @@
 import './App.css';
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
-import Hello from './components/Hello';
-import Bye from './components/Bye';
-import Anushka from './components/Anushka';
-import Ria from './components/Ria';
-import Jiya from './components/Jiya';
-import Femme from './components/Femme';
+import Hello from './pages/Hello';
+import Bye from './pages/Bye';
+import Anushka from './pages/Anushka';
+import Ria from './pages/Ria';
+import Jiya from './pages/Jiya';
+import Femme from './pages/Femme';
 
 function App() {
 
