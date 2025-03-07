@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import Hello from './components/Hello';
 import Bye from './components/Bye';
 import Anushka from './components/Anushka';
+import Ria from './components/Ria';
 
 
 
@@ -29,6 +30,7 @@ const RoutesWeb = () => {
         <Route path="/" element={<Hello />} />
         <Route path="/bye" element={<Bye />} />
         <Route path="/ank" element={<Anushka />} />
+        <Route path="/ria" element={<Ria />} />
       </Routes>
       {/* {!isAdminRoute && <Footer />}       Conditionally render Footer */}
       </>
