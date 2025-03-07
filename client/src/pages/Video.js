@@ -1,6 +1,6 @@
 // src/Video.js
 import React, { useState } from 'react';
-import myVideo from './path-to-your-video-file.mp4';
+import myVideo from "../../src/test.mp4"
 
 const Video = () => {
   const [isLoading, setIsLoading] = useState(true);
