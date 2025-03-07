@@ -2,6 +2,8 @@ import './App.css';
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import Hello from './components/Hello';
 import Bye from './components/Bye';
+import Anushka from './components/Anushka';
+
 
 
 function App() {
@@ -26,6 +28,7 @@ const RoutesWeb = () => {
       <Routes>
         <Route path="/" element={<Hello />} />
         <Route path="/bye" element={<Bye />} />
+        <Route path="/ank" element={<Anushka />} />
       </Routes>
       {/* {!isAdminRoute && <Footer />}       Conditionally render Footer */}
       </>
